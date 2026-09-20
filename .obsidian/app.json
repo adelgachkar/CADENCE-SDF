@@ -1,0 +1,13 @@
+{
+  "cssThemes": [],
+  "legacyEditor": false,
+  "livePreview": true,
+  "markdownSyntaxHighlighting": true,
+  "showLineNumber": true,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "attachmentFolderPath": "attachments",
+  "useMarkdownLinks": false,
+  "showUnsupportedFiles": true
+}
