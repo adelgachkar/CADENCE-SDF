@@ -18,7 +18,7 @@ lineage: "v3.4.2 -> v3.5.1"
 - **Release Version:** `v3.5.1` (previous structural release; superseded for active review)
 - **Framework Identifier:** `CADENCE-SDF-Dynamic-Architecture`
 - **Release DOI:** `10.5281/zenodo.22412461`
-- **License:** Creative Commons Attribution 4.0 International (CC-BY-4.0)
+- **License (at release):** Creative Commons Attribution 4.0 International (CC-BY-4.0) — superseded 2026-09-23: the repository is now distributed under MIT; see LICENSE
 
 ## 2. Canonical Closure Snapshot
 $$\hat{\mathcal{P}}_{v3.5.1} |\text{vault}\rangle = |\text{snapshot}_{v3.5.1}\rangle$$
