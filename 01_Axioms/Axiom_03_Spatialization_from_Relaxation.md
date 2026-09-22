@@ -8,7 +8,7 @@ version: "v3.5.1"
 doi: "10.5281/zenodo.22412461"
 module: "01_Axioms"
 framework: "CADENCE-SDF-Dynamic-Architecture"
-license: "CC-BY-4.0"
+license: "MIT"
 ---
 
 # Axiom 3 — Spatialization from Relaxation

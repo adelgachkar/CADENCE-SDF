@@ -3,12 +3,12 @@ title: "Energy Momentum Redefinition"
 author: "Adel Gachkar"
 tags: ["SDF", "07"]
 status: "Canonical"
-date: 2026-09-08
+date: 2026-09-20
 version: "v3.5.1"
 doi: "10.5281/zenodo.22412461"
 module: "07_Mathematical_Formalization"
 framework: "CADENCE-SDF-Dynamic-Architecture"
-license: "CC-BY-4.0"
+license: "MIT"
 ---
 
 # Energy Momentum Redefinition

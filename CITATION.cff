@@ -8,5 +8,5 @@ title: "CADENCE-SDF: Dynamic Architecture and Void/Lattice Gravity Dynamics"
 version: 3.5.1
 doi: 10.5281/zenodo.22412461
 date-released: 2026-09-11
-license: CC-BY-4.0
+license: "MIT"
 repository-code: "https://github.com/adelgachkar/SDF-VLT-Gravity-Dynamics"

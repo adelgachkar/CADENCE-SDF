@@ -6,7 +6,7 @@ date: "2026-09-10"
 framework: "CADENCE-SDF-Dynamic-Architecture"
 domain: "03_Cadence_Core"
 doi: "10.5281/zenodo.22412461"
-license: "CC-BY-4.0"
+license: "MIT"
 ---
 
 # Cadence Operator Definition

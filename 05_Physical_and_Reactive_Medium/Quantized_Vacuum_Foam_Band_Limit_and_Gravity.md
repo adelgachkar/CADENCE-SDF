@@ -4,7 +4,7 @@ version: "v3.5.1"
 status: "Proposed Mechanistic Hypothesis"
 date: "2026-09-11"
 framework: "CADENCE-SDF-Dynamic-Architecture"
-license: "CC-BY-4.0"
+license: "MIT"
 doi: "10.5281/zenodo.22412461"
 ---
 

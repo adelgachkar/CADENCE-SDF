@@ -3,12 +3,12 @@ title: "Void Expansion Engine"
 author: "Adel Gachkar"
 tags: ["SDF", "06"]
 status: "Canonical"
-date: 2026-09-08
+date: 2026-09-20
 version: "v3.5.1"
 doi: "10.5281/zenodo.22412461"
 module: "06_Dynamic_Engine"
 framework: "CADENCE-SDF-Dynamic-Architecture"
-license: "CC-BY-4.0"
+license: "MIT"
 ---
 
 # Void Expansion Engine
