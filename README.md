@@ -1,5 +1,5 @@
 # CADENCE-SDF: Dynamic Architecture and Void/Lattice Gravity Dynamics
-**Version:** 3.5.1-R1  
+**Version:** 3.6.0  
 **Status:** Proposed Mechanistic Revision — not empirically established  
 **Framework:** Structural Delimitation Framework (SDF)  
 
