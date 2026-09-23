@@ -70,6 +70,14 @@ The following are **not claimed as established** in this release:
 
 Numerical and observational statements are therefore classified as **candidate parameters, benchmarks, or tests** unless accompanied by executable evidence.
 
+**Per-number epistemic triage — every number in this repository belongs to exactly one of three classes:**
+
+- **Closed geometry** — exact mathematics *of the model*, derivable on paper; not a measured quantity of nature: δθ = 2π − 5·arccos(1/3) = 7.356103°; φ_max = π/√18 = 0.7405; packing/void radii; multipole-ladder exponents; two-sheet wall exactness.
+- **Our own simulations** — reproducible in silico (`09_Validation_and_Simulation/`, `tools/`); no external empirical validation exists for them: κ_hop = 0.025g²ω₀ with g = 0.8 fixed by our Meep cavity benchmark (λ₀ = 320 nm) ⇒ f_c ≈ 30 THz, h·f_c ≈ 0.12 eV; KST benchmarks where actually executed; synthetic-data fits.
+- **Real empirical phenomena** — measured in the real world by others: only the **Pantheon+ supernova compilation**, used as *fit input* for the boundary-shape ansätze. The data are real; the SDF interpretation of the residuals is not established and remains a candidate test. (The graphene-wrinkle experiment lives in SPUMA-VACUI as the K2 mechanism anchor.)
+
+No number in this release is presented as a measured property of a real quantized substrate; the substrate itself is a model construct.
+
 ## 5. Validation Policy
 
 The KST suite is a protocol specification. A test is not considered verified merely because an acceptance criterion is written in the documentation.
