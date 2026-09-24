@@ -89,6 +89,13 @@ Current release status:
 See:
 `09_Validation_and_Simulation/Kinetic_Stability_Tests.md`
 
+## 5b. Aligned Protocol Pointer
+
+The unified epistemic protocol shared by the four family repositories (LIMEN, SPUMA, CADENCE, Vault) is canonically documented in
+**LIMEN-VACUI `08_Protocol/Aligned-Protocol`** (Persian + EN mirror).
+
+It formulates: the generative triad (constraint × silence × event), the derived norms E0–E5 (this repo's fail-closed validation policy is E2), the three regimes of silence, registered fundamentality, the three healthy paradox options (C′ recorded silence / C″ reframing / C‴ axiom replacement), and the **invariance-residue test** — the operational criterion separating legitimate dissolution of a frame-made paradox from evasion of a real one. The seven-pivot atlas of accepted physics' unnamed protocol execution is mapped there, labeled `[protocol-mirror]`: CADENCE here is a mirror, not a rival — a residue measurer, not a solver.
+
 ## 6. Reproducibility
 
 A scientific verification claim requires, at minimum:
