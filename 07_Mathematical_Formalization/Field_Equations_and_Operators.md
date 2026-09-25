@@ -10,27 +10,26 @@ doi: "10.5281/zenodo.22412461"
 module: "07_Mathematical_Formalization"
 framework: "CADENCE-SDF-Dynamic-Architecture"
 license: "MIT"
+lang: "en"
 ---
 
 # Field Equations and Operators
-### معادلات میدان و عملگرها
 
 > **Structural Causal Chain:** **Constraint -> Differential Tension (DeltaPhi) -> Quantized Step (delta s) -> Cadence -> Metric Emergence (g_{mu nu}) -> Observable Dynamics**
 
-## Purpose / هدف
+## Purpose
 
 This note is a constituent node of the **07_Mathematical_Formalization** module of the CADENCE-SDF-Dynamic-Architecture vault. It assembles the **operator algebra and the field equations** used across the framework in one place: the canonical sequence as an operator composition, the gating algebra, the constraint-wave equation, the metric ansatz, the impedance network equation, and the kernel of the observational mapping — each with its declared status. Geometry is treated as emergent in the proposed framework; this is a modeling assumption, not an empirical conclusion.
 
-این یادداشت جبر عملگرها و معادلات میدانی به‌کاررفته در سراسر چارچوب را در یک جا گرد می‌آورد: توالی کانونی به‌مثابه ترکیب عملگری، جبر گیت‌گذاری، معادله موج قید، انsatz متریک، معادله شبکه امپدانس و هسته نگاشت مشاهده‌ای — هر یک با وضعیت معرفتی اعلام‌شده.
 
-## Role in the Causal Architecture / نقش در معماری علّی
+## Role in the Causal Architecture
 
 - **Stage:** **Constraint -> Differential Tension (DeltaPhi) -> Quantized Step (delta s) -> Cadence -> Metric Emergence (g_{mu nu}) -> Observable Dynamics**
 - **Function:** Field equations and operators of the SDF formalism.
 - **Upstream input:** axioms of Module 01; medium network of Module 05.
 - **Downstream output:** the executable equations consumed by Module 06 (engines), Module 08 (observational mapping) and Module 09 (validation).
 
-## Section 1 — Operator Alphabet / الفبای عملگری
+## Section 1 — Operator Alphabet
 
 The canonical causal sequence read as operator composition (Axiom 4 embedding):
 
@@ -48,7 +47,7 @@ $$\text{Admissible}(\delta s_n)\iff |\Delta\Phi_n|\le C_{id}(\rho)\,\Delta\Phi_{
 
 Commutation statement (model axiom): C_id commutes with the state label but not with ΔΦ — gating is state-dependent; this is what makes the sequence irreversible in the proposed picture.
 
-## Section 2 — Constraint Wave Equation / معادله موج قید
+## Section 2 — Constraint Wave Equation
 
 The accumulated tension obeys a diffusion–relaxation equation on the lattice (from `02_Causal_Architecture/Differential_Pressure_Dynamics.md` + KST-01 of `09_Validation_and_Simulation/Kinetic_Stability_Tests.md`):
 
@@ -57,7 +56,7 @@ $$\frac{d(\Delta\Phi)}{d\tau} = -\frac{\Delta\Phi}{\delta\tau_n} + \sigma_\Phi(\
 
 with dispersion ω² = κk² − 9H_eff²/4 and decay for k ≥ 3H_eff/(2√κ). Spectral discipline for the cadence operator (KST-02): Spec(Ĉ_top) ⊆ {λ : |λ| ≤ 1 + ε_cadence}, acceptance |ρ(Ĉ_top) − 1| ≤ 10⁻¹² — specified, **not executed**.
 
-## Section 3 — Metric Ansatz / ان‌ساتز متریک
+## Section 3 — Metric Ansatz
 
 The dimensionally consistent candidate metric ansatz (`04_Canonical_SDF_Mapping/M_Metric_Emergence.md`, `09_Validation_and_Simulation/Numerical_Simulations.md`):
 
@@ -68,7 +67,7 @@ $$g_{\mu\nu}(x) = \eta_{\mu\nu} + \alpha_{\text{metric}}
 - η_μν = diag(−1, 1, 1, 1); α_metric dimensionless; ω_ref a reference cadence scale; ε_reg → 0⁺.
 - Status: **candidate ansatz — NOT VERIFIED**; the verification protocol (behavior as ∇Φ→0, ε_reg sensitivity, signature/determinant checks, convergence) is specified in Module 09.
 
-## Section 4 — Impedance Network Equation / معادله شبکه امپدانس
+## Section 4 — Impedance Network Equation
 
 Kirchhoff-type conservation on the reactive network (Module 05 + KST-04):
 
@@ -77,7 +76,7 @@ $$Z_{\text{medium}}(z,\rho)=R_{\text{loss}}(\rho)+j\omega L_{\text{foam}}(\rho)+
 
 Passive stability (mandatory): Re[Z_medium] ≥ 0. Candidate channel-selection rule: χ_R = |R_loss|/(|Z_reactive|+ε_Z) ≤ χ_max (χ_max to be derived, not assumed). Candidate conservation residual for the acceptance test: ‖Σ S_i^flux‖₂ ≤ 10⁻¹⁴ — specified, **not executed**.
 
-## Section 5 — Observational Kernel / هسته مشاهده‌ای
+## Section 5 — Observational Kernel
 
 The composite mapping from constraint state to observables (Modules 08, 04):
 
@@ -89,7 +88,7 @@ $$\delta z_{\text{foam}}=\int_0^s\frac{\nabla|Z_{\text{medium}}|}{Z_0}\,ds,\qqua
 
 **Shape status (Pantheon+ adjudication, 2026-09-20):** EXP vs POW are statistically indistinguishable on Pantheon+ (Δχ² ≈ 1); the additive boundary term is not demanded by the data (fitted ΔH_c ≈ 0); both shapes remain registered ansätze with the fitting record in the companion Emergence-SDF-Vault repository (`tools/fit_transition_forms.py`, `data/pantheon+_SH0ES.dat`). Benchmark parameters (H₀ = 67.4, ΔH_c = 5.64 km/s/Mpc, z_c = 0.15, α = 2.1) remain working benchmarks, not measurements. No resolution claim.
 
-## Section 6 — Ensemble Closure / بستن انسابلی
+## Section 6 — Ensemble Closure
 
 Statistical closure of the step ensemble (`03_Cadence_Core/Statistical_Phase_Step_Dynamics.md`):
 

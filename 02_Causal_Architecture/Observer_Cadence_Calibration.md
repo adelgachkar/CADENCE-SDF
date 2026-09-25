@@ -9,20 +9,19 @@ doi: "10.5281/zenodo.22412461"
 module: "02_Causal_Architecture"
 framework: "CADENCE-SDF-Dynamic-Architecture"
 license: "MIT"
+lang: "en"
 ---
 
 # Observer Cadence Calibration
-### کالیبراسیون کادنس ناظر
 
 > **Structural Causal Chain:** **Constraint -> Differential Tension (DeltaPhi) -> Quantized Step (delta s) -> Cadence -> Metric Emergence (g_{mu nu}) -> Observable Dynamics**
 
-## Purpose / هدف
+## Purpose
 
 This note is a constituent node of the **02_Causal_Architecture** module of the CADENCE-SDF-Dynamic-Architecture vault. It operationalizes one stage of the Structural Delimitation Framework (SDF Theory): a cosmos in which **no absolute reference exists** and **constraint precedes metric**. Geometry is treated as emergent in the proposed framework; this is a modeling assumption, not an empirical conclusion.
 
-این یادداشت یکی از گره‌های ماژول **02_Causal_Architecture** در قوس CADENCE-SDF است و یکی از مراحل چارچوب تحدید ساختاری (نظریه SDF) را صورت‌بندی می‌کند: جهانی بدون مرجع مطلق که در آن **قید بر هندسه تقدم دارد** و متریک از آرامش پله‌ایِ ساختار پدید می‌آید.
 
-## Role in the Causal Architecture / نقش در معماری علّی
+## Role in the Causal Architecture
 
 - **Stage:** **Constraint -> Differential Tension (DeltaPhi) -> Quantized Step (delta s) -> Cadence -> Metric Emergence (g_{mu nu}) -> Observable Dynamics**
 - **Function:** Calibrates observer clocks to the internal cadence of the medium.

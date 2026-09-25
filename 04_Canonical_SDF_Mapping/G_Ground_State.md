@@ -9,17 +9,16 @@ doi: "10.5281/zenodo.22412461"
 module: "04_Canonical_SDF_Mapping"
 framework: "CADENCE-SDF-Dynamic-Architecture"
 license: "MIT"
+lang: "en"
 ---
 
 # G — Ground State
-## حالت پایه G
 
 > **Structural Causal Chain:**
 > Constraint → Differential Tension (ΔΦ) → Quantized Step (δs) → Cadence → Metric Emergence (g_μν) → Observable Dynamics
 
-**Purpose / هدف:**
+**Purpose:**
 Define the baseline constraint configuration from which the canonical sequence unfolds.
-تعریف پیکربندی مرجع قید که زنجیره کانونیکال از آن آغاز میشود.
 
 **Role in Causal Architecture:**
 - **Stage:** G (first term of G → Cid → S → R → M → L → F)

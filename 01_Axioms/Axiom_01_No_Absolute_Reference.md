@@ -9,17 +9,16 @@ doi: "10.5281/zenodo.22412461"
 module: "01_Axioms"
 framework: "CADENCE-SDF-Dynamic-Architecture"
 license: "MIT"
+lang: "en"
 ---
 
 # Axiom 1 — No Absolute Reference
-## اصل ۱: نبود مرجع مطلق
 
 > **Structural Causal Chain:**
 > Constraint → Differential Tension (ΔΦ) → Quantized Step (δs) → Cadence → Metric Emergence (g_μν) → Observable Dynamics
 
-**Purpose / هدف:**
+**Purpose:**
 Establish the foundational relationality of SDF dynamics.
-تثبیت رابطه‌ای‌بودن بنیادی دینامیک SDF.
 
 **Role in Causal Architecture:**
 - **Stage:** Foundational Axiom (G-precondition)

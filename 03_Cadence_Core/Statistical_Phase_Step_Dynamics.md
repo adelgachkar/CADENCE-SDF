@@ -5,11 +5,11 @@ status: "Proposed Dynamic Principle — Not Empirically Established"
 date: "2026-09-11"
 framework: "CADENCE-SDF-Dynamic-Architecture"
 license: "MIT"
+lang: "en"
 doi: "10.5281/zenodo.22412461"
 ---
 
 # Statistical Stability of Dynamic Phase Steps
-### پویایی گام‌های فازی و پایداری آماری قانون برآمده
 
 ## 1. Motivation
 

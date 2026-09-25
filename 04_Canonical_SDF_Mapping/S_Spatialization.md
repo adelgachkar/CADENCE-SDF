@@ -9,17 +9,16 @@ doi: "10.5281/zenodo.22412461"
 module: "04_Canonical_SDF_Mapping"
 framework: "CADENCE-SDF-Dynamic-Architecture"
 license: "MIT"
+lang: "en"
 ---
 
 # S — Spatialization
-## فضایی‌سازی S
 
 > **Structural Causal Chain:**
 > Constraint → Differential Tension (ΔΦ) → Quantized Step (δs) → Cadence → Metric Emergence (g_μν) → Observable Dynamics
 
-**Purpose / هدف:**
+**Purpose:**
 Convert the cadenced relaxation record into spatial extent.
-تبدیل رکورد آرامش کادنس‌دار به گستره فضایی.
 
 **Role in Causal Architecture:**
 - **Stage:** S (third term of the canonical sequence)

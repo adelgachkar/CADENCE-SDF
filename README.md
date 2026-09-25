@@ -2,6 +2,7 @@
 **Version:** 3.6.0  
 **Status:** Proposed Mechanistic Revision — not empirically established  
 **Framework:** Structural Delimitation Framework (SDF)  
+**Language:** English (monolingual edition — every note carries frontmatter `lang: "en"`; the canonical Persian discourse of the family lives in LIMEN-VACUI `fa/`)
 
 ---
 

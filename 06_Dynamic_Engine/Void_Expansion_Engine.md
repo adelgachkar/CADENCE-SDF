@@ -10,27 +10,26 @@ doi: "10.5281/zenodo.22412461"
 module: "06_Dynamic_Engine"
 framework: "CADENCE-SDF-Dynamic-Architecture"
 license: "MIT"
+lang: "en"
 ---
 
 # Void Expansion Engine
-### موتور انبساط خلأ
 
 > **Structural Causal Chain:** **Constraint -> Differential Tension (DeltaPhi) -> Quantized Step (delta s) -> Cadence -> Metric Emergence (g_{mu nu}) -> Observable Dynamics**
 
-## Purpose / هدف
+## Purpose
 
 This note is a constituent node of the **06_Dynamic_Engine** module of the CADENCE-SDF-Dynamic-Architecture vault. It operationalizes the **expansion engine stage**: how void-under-filament pressure imbalance becomes a step-wise expansion of the lattice, and how that engine projects onto the observed expansion rate H(z). Geometry is treated as emergent in the proposed framework; this is a modeling assumption, not an empirical conclusion.
 
-این یادداشت گرهِ موتور انبساط ماژول **06_Dynamic_Engine** است: چگونه عدم‌تعادل فشار حفره/رشته به انبساط پله‌ای شبکه می‌انجامد و بر نرخ انبساط مشاهده‌شده H(z) تصویر می‌شود.
 
-## Role in the Causal Architecture / نقش در معماری علّی
+## Role in the Causal Architecture
 
 - **Stage:** **Constraint -> Differential Tension (DeltaPhi) -> Quantized Step (delta s) -> Cadence -> Metric Emergence (g_{mu nu}) -> Observable Dynamics**
 - **Function:** Void expansion as the engine of cosmic dynamics.
 - **Upstream input:** structural constraint, differential pressure ΔP_diff, and accumulated differential tension ΔΦ.
 - **Downstream output:** step train {δs_n, δτ_n} → cadence ω_c → boundary term ΔH_boundary(z) in the expansion mapping.
 
-## Section 1 — Engine Driver / محرک موتور
+## Section 1 — Engine Driver
 
 The engine runs on the structural pressure imbalance (`02_Causal_Architecture/Differential_Pressure_Dynamics.md`, `04_Canonical_SDF_Mapping/Cid_Structural_Constraint.md`):
 
@@ -44,7 +43,7 @@ Z_{\text{medium}} = j\omega L_{\text{foam}} + \frac{1}{j\omega C_{\text{boundary
 
 so a void acts as a **reactive energy reservoir**: loaded slowly by ΔP_diff, released in gated quanta.
 
-## Section 2 — Expansion as Quantized Relaxation / انبساط به‌مثابه آرامش کوانتیده
+## Section 2 — Expansion as Quantized Relaxation
 
 Each admissible release advances the local scale by one step (Axiom 3):
 
@@ -53,7 +52,7 @@ $$\delta s_n = s_0\,n,\quad n\in\mathbb{Z}^+,\qquad
 
 with the step clocked by the cadence field ω_c = 1/δτ_n (`03_Cadence_Core/Cadence_Operator_Definition.md`). The kinetic picture is a **relaxation oscillator**: slow loading (ΔΦ, ΔP_diff) → threshold (gated admissibility) → fast release (δs) → reload. Noise times the release; the energy comes from the stored reactive reservoir, never from the noise itself (passive-bath consistency).
 
-## Section 3 — Expansion Mapping / نگاشت انبساط
+## Section 3 — Expansion Mapping
 
 The engine's output enters the effective expansion rate as a boundary term (`01_Axioms/Axiom_02_Constraint_Precedes_Metric.md`, `04_Canonical_SDF_Mapping/L_Lattice_Dynamics.md`, `08_Observational_Mapping/Hubble_Tension_Resolution.md`):
 
@@ -76,7 +75,7 @@ $$\mathcal{S}_{\text{EXP}}(z)=1-\exp\!\big(-z_c/(z+\epsilon)\big)\quad\text{vs.}
 
 — are statistically indistinguishable on Pantheon+ SNe (Δχ² ≈ 1; SN data alone cannot adjudicate). The boundary term ΔH_boundary is likewise **not demanded by Pantheon+** in additive form (ΔH_c ≈ 0 fitted). Both shapes remain registered ansätze; the canonical adjudication record is the fitting tool `fit_transition_forms.py` of the companion Emergence-SDF-Vault repository, `data/pantheon+_SH0ES.dat` input, and the companion note `01_Axioms/Pre-Friedmann...` chain there. No resolution claim is made.
 
-## Section 4 — Redshift Accounting / حسابداری سرخ‌گرایی
+## Section 4 — Redshift Accounting
 
 Expansion observables decompose multiplicatively (Axiom 3, Module 08):
 
@@ -85,7 +84,7 @@ $$1+z_{\text{obs}} = (1+z_{\text{metric}})\,(1+\delta z_{\text{foam}}),\qquad
 
 The engine therefore predicts environment-correlated residuals: void-line-of-sight probes vs. filament-line-of-sight probes should differ at the level of δz_foam — a falsifiable signature (`08_Observational_Mapping/Hubble_Tension_Resolution.md`, candidate tests table).
 
-## Section 5 — Coupling to the Companion Model / اتصال به مدل همتا
+## Section 5 — Coupling to the Companion Model
 
 In the companion Emergence-SDF-Vault model, the void is realized as a closed tetrahedral cavity network: the void fraction (statistical void limit), the hop-coupling rate κ_hop = 0.025 g² ω₀ (g ∈ [0.7, 0.9], FDTD benchmark p ≈ 3.3 confirming the w³ neck law), and the derived delay τ_d = π/2κ_hop give the engine its **microscopic clock**:
 

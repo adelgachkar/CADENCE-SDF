@@ -9,17 +9,16 @@ doi: "10.5281/zenodo.22412461"
 module: "01_Axioms"
 framework: "CADENCE-SDF-Dynamic-Architecture"
 license: "MIT"
+lang: "en"
 ---
 
 # Axiom 2 — Constraint Precedes Metric
-## اصل ۲: تقدم قید بر متریک
 
 > **Structural Causal Chain:**
 > Constraint → Differential Tension (ΔΦ) → Quantized Step (δs) → Cadence → Metric Emergence (g_μν) → Observable Dynamics
 
-**Purpose / هدف:**
+**Purpose:**
 Fix the ontological priority of constraint fields over geometry.
-تثبیت اولویت هستی‌شناختی میدانهای قید بر هندسه.
 
 **Role in Causal Architecture:**
 - **Stage:** Foundational Axiom

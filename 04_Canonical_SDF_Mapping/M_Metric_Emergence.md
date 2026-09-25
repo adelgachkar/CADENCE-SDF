@@ -8,6 +8,7 @@ affiliation: "Islamic Azad University, Urmia"
 framework: "CADENCE-SDF-Dynamic-Architecture"
 doi: "10.5281/zenodo.22412461"
 license: "MIT"
+lang: "en"
 lineage: "v3.4.2 -> v3.5.1"
 ---
 

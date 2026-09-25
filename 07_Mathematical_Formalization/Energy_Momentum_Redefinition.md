@@ -10,27 +10,26 @@ doi: "10.5281/zenodo.22412461"
 module: "07_Mathematical_Formalization"
 framework: "CADENCE-SDF-Dynamic-Architecture"
 license: "MIT"
+lang: "en"
 ---
 
 # Energy Momentum Redefinition
-### بازتعریف انرژی-تکانه
 
 > **Structural Causal Chain:** **Constraint -> Differential Tension (DeltaPhi) -> Quantized Step (delta s) -> Cadence -> Metric Emergence (g_{mu nu}) -> Observable Dynamics**
 
-## Purpose / هدف
+## Purpose
 
 This note is a constituent node of the **07_Mathematical_Formalization** module of the CADENCE-SDF-Dynamic-Architecture vault. It formalizes the **energy–momentum budget of the relaxation substrate**: what plays the role of energy and momentum when the fundamental objects are constraint, tension, and quantized relaxation steps — and how the budget stays consistent with the second law and with the passive-bath picture. Geometry is treated as emergent in the proposed framework; this is a modeling assumption, not an empirical conclusion.
 
-این یادداشت بودجهٔ انرژی–تکانهٔ بستر آرامش را صورت‌بندی می‌کند: چه چیزی نقش انرژی و تکانه را بازی می‌کند وقتی اشیاء بنیادی قید، تنش و گام‌های آرامش کوانتیده‌اند — و چگونه این بودجه با قانون دوم و تصویر حمام غیرفعال سازگار می‌ماند.
 
-## Role in the Causal Architecture / نقش در معماری علّی
+## Role in the Causal Architecture
 
 - **Stage:** **Constraint -> Differential Tension (DeltaPhi) -> Quantized Step (delta s) -> Cadence -> Metric Emergence (g_{mu nu}) -> Observable Dynamics**
 - **Function:** Energy-momentum redefined as the structural constraint budget.
 - **Upstream input:** reactive reservoirs of the medium (`05_Physical_and_Reactive_Medium/Impedance_Network_Model.md`), accumulated tension ΔΦ.
 - **Downstream output:** the conserved-aggregate structure entering metric emergence (`04_Canonical_SDF_Mapping/M_Metric_Emergence.md`) and flux observables (`04_Canonical_SDF_Mapping/F_Flux_and_Field.md`).
 
-## Section 1 — Energy as Reactive Storage / انرژی به‌مثابه ذخیره راکتیو
+## Section 1 — Energy as Reactive Storage
 
 In the boundary regime the medium is reactive-dominant (`05_Physical_and_Reactive_Medium/Impedance_Network_Model.md`, `05_Physical_and_Reactive_Medium/Active_Reactive_Harmonic_Band_Model.md`):
 
@@ -40,7 +39,7 @@ $$Z_{\text{medium}} = \underbrace{R_{\text{loss}}}_{\to\,0}\;+\;j\omega L_{\text
 
 Energy is **stored reactively** while the dissipative channel is closed (|Φ| ≈ 0 in the limit — a model-level statement). The oscillatory exchange between L_foam and C_boundary is the substrate analogue of kinetic↔potential exchange; the corresponding harmonic band is catalogued in `05_Physical_and_Reactive_Medium/Active_Reactive_Harmonic_Band_Model.md`.
 
-## Section 2 — Work Quantum of a Step / کوانتوم کار گام
+## Section 2 — Work Quantum of a Step
 
 The elementary energetic currency is the step. Writing s₀ = c_eff·δτ_n with the step-propagation speed bounded by the causal limit:
 
@@ -53,7 +52,7 @@ $$\hbar\kappa_{\text{hop}} = \hbar\cdot 0.025\,g^2\omega_0 \approx 56\text{–}6
 
 Consequences of the hierarchy ℏκ_hop > k_BT (factor ≈ 2.2 at the benchmark g = 0.8) at optical working scale: (i) the noise bath cannot motor directional work — it can only **time** the gated release (Kramers trigger); (ii) the stored phase debt, not the bath, pays for each release; (iii) scaling the lattice scale a upward drives the hierarchy toward ℏκ ~ k_BT and eventually the thermal-noise regime. The passive-bath bound (no directional work from an equilibrium noise bath) is the second-law wall; the registered engine asymmetry is the constraint geometry (rectifier) plus the pressure imbalance ΔP_diff (pump), with the noise bath acting only as trigger.
 
-## Section 3 — Momentum as Constraint Flux / تکانه به‌مثابه شار قید
+## Section 3 — Momentum as Constraint Flux
 
 Momentum is carried by the gradient structure of the constraint potential:
 
@@ -70,7 +69,7 @@ g_{\mu\nu} = \eta_{\mu\nu} + T_{\mu\nu}^{(\text{struct})}$$
 
 Dimensional admissibility follows from the dimensionless cadence ratio and the dimensionless gradient quotient; ε_reg → 0⁺ regularizes the kinetic singularity. This identification is a candidate mapping, not a derivation.
 
-## Section 4 — Budget Closure at the Oscillator Level / بستن بودجه در سطح نوسان‌گر
+## Section 4 — Budget Closure at the Oscillator Level
 
 Across one full relaxation-oscillator cycle (load → threshold → release → reload):
 
@@ -80,7 +79,7 @@ $$\underbrace{\int_{\text{cycle}}\sigma_\Phi\,\delta s\,d\tau}_{\text{pump work 
 
 Passive stability requires Re[Z_medium] ≥ 0 at all times (`05_Physical_and_Reactive_Medium/Impedance_Network_Model.md`), i.e. the budget never runs in reverse. The cycle is a **debt ledger**: loading accumulates phase/tension debt; the gated release settles it; noise sets the release epoch only. This mirrors the phase-debt oscillator of the companion model (N_c = π/δθ steps per cycle, period-2 subharmonic π/0 alternating).
 
-## Section 5 — Aggregate Accounting / حسابداری تجمیعی
+## Section 5 — Aggregate Accounting
 
 Over N steps (`03_Cadence_Core/Statistical_Phase_Step_Dynamics.md`):
 

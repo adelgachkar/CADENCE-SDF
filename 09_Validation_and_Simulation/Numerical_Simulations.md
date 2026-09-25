@@ -5,6 +5,7 @@ status: "Method Specification — Not Verified"
 date: "2026-09-11"
 framework: "CADENCE-SDF-Dynamic-Architecture"
 license: "MIT"
+lang: "en"
 doi: "10.5281/zenodo.22412461"
 ---
 

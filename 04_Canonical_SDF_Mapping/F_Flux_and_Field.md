@@ -9,17 +9,16 @@ doi: "10.5281/zenodo.22412461"
 module: "04_Canonical_SDF_Mapping"
 framework: "CADENCE-SDF-Dynamic-Architecture"
 license: "MIT"
+lang: "en"
 ---
 
 # F — Flux and Field
-## شار و میدان F
 
 > **Structural Causal Chain:**
 > Constraint → Differential Tension (ΔΦ) → Quantized Step (δs) → Cadence → Metric Emergence (g_μν) → Observable Dynamics
 
-**Purpose / هدف:**
+**Purpose:**
 Formalize transport phenomena over the emergent lattice as observable fields.
-صورت‌بندی پدیدههای انتقال بر شبکه پدیدآمده به‌صورت میدانهای مشاهدهپذیر.
 
 **Role in Causal Architecture:**
 - **Stage:** F (terminal term of the canonical sequence — observation interface)

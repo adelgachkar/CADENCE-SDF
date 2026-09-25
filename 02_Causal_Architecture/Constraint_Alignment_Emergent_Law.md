@@ -5,11 +5,11 @@ status: "Proposed Structural Principle — Not Empirically Established"
 date: "2026-09-11"
 framework: "CADENCE-SDF-Dynamic-Architecture"
 license: "MIT"
+lang: "en"
 doi: "10.5281/zenodo.22412461"
 ---
 
 # Constraint Alignment as the Generator of Emergent Law
-### هم‌ترازی قیود به‌عنوان موتور مولد قانون برآمده
 
 > **Epistemic status:** This document records a proposed structural principle extracted from the current mechanism discussion. It is not presented as a verified physical law.
 

@@ -9,17 +9,16 @@ doi: "10.5281/zenodo.22412461"
 module: "04_Canonical_SDF_Mapping"
 framework: "CADENCE-SDF-Dynamic-Architecture"
 license: "MIT"
+lang: "en"
 ---
 
 # R — Relational Geometry
-## هندسه رابطه‌ای R
 
 > **Structural Causal Chain:**
 > Constraint → Differential Tension (ΔΦ) → Quantized Step (δs) → Cadence → Metric Emergence (g_μν) → Observable Dynamics
 
-**Purpose / هدف:**
+**Purpose:**
 Define distance as purely internal relations among relaxation records.
-تعریف فاصله صرفاً به‌عنوان روابط درونی میان رکوردهای آرامش.
 
 **Role in Causal Architecture:**
 - **Stage:** R (fourth term of the canonical sequence)

@@ -7,6 +7,7 @@ date: 2026-09-20
 version: "v3.5.1"
 doi: "10.5281/zenodo.22412461"
 license: "MIT"
+lang: "en"
 module: "02_Causal_Architecture"
 framework: "CADENCE-SDF-Dynamic-Architecture"
 ---
@@ -50,7 +51,7 @@ where:
 - The state space of admissible paths is $S_{\mathrm{stoch}}\subseteq \bigcup_n S_n$,
   addressed only through admissible transitions.
 
-**Boundary-region interpretation (مفصل صفر مرزی)**
+**Boundary-region interpretation (the boundary zero-point joint)**
 
 "Zero of marginal impedance" **does not mean** absolute null of the whole impedance. It means:
 

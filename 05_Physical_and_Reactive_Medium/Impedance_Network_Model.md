@@ -7,6 +7,7 @@ date: 2026-09-20
 version: "v3.5.1"
 doi: "10.5281/zenodo.22412461"
 license: "MIT"
+lang: "en"
 module: "05_Physical_and_Reactive_Medium"
 framework: "CADENCE-SDF-Dynamic-Architecture"
 ---
@@ -70,7 +71,7 @@ Working benchmark values (v3.5.1, traceable to `08_Observational_Mapping/Hubble_
 - $\rho_c$, $\lambda_c$: functional / scale-passing only.
 - **Stability constraint (mandatory):** $\mathrm{Re}[Z_{\mathrm{medium}}]\ \ge\ 0$.
 
-**Boundary-region interpretation (نقطه صفر مرزی)**
+**Boundary-region interpretation (the boundary zero-point joint)**
 
 \[
 \lim_{\rho\ll\rho_c} R_{\mathrm{loss}}(\rho)\to 0

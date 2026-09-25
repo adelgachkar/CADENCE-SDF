@@ -7,6 +7,7 @@ author: "Adel Gachkar"
 framework: "CADENCE-SDF-Dynamic-Architecture"
 lineage: "v3.4.2 -> v3.5.1"
 license: "MIT"
+lang: "en"
 doi: "10.5281/zenodo.22412461"
 ---
 

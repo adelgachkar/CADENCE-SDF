@@ -9,17 +9,16 @@ doi: "10.5281/zenodo.22412461"
 module: "01_Axioms"
 framework: "CADENCE-SDF-Dynamic-Architecture"
 license: "MIT"
+lang: "en"
 ---
 
 # Axiom 3 — Spatialization from Relaxation
-## اصل ۳: فضایی‌شدن از آرامش
 
 > **Structural Causal Chain:**
 > Constraint → Differential Tension (ΔΦ) → Quantized Step (δs) → Cadence → Metric Emergence (g_μν) → Observable Dynamics
 
-**Purpose / هدف:**
+**Purpose:**
 Derive spatial extent as the historical record of structural relaxation.
-اشتقاق گستره فضایی به‌عنوان رکورد تاریخی آرامش ساختاری.
 
 **Role in Causal Architecture:**
 - **Stage:** Foundational Axiom

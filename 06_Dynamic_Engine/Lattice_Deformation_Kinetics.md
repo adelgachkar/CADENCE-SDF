@@ -10,27 +10,26 @@ doi: "10.5281/zenodo.22412461"
 module: "06_Dynamic_Engine"
 framework: "CADENCE-SDF-Dynamic-Architecture"
 license: "MIT"
+lang: "en"
 ---
 
 # Lattice Deformation Kinetics
-### سینتیک تغییرشکل شبکه
 
 > **Structural Causal Chain:** **Constraint -> Differential Tension (DeltaPhi) -> Quantized Step (delta s) -> Cadence -> Metric Emergence (g_{mu nu}) -> Observable Dynamics**
 
-## Purpose / هدف
+## Purpose
 
 This note is a constituent node of the **06_Dynamic_Engine** module of the CADENCE-SDF-Dynamic-Architecture vault. It operationalizes the **kinetics stage**: how accumulated differential tension ΔΦ is converted into an actual sequence of gated relaxation steps on the deformation lattice. Geometry is treated as emergent in the proposed framework; this is a modeling assumption, not an empirical conclusion.
 
-این یادداشت گرهِ سینتیک ماژول **06_Dynamic_Engine** است: چگونگی تبدیل تنش تفاضلی انباشتهٔ ΔΦ به رشتهٔ واقعی گام‌های آرامش گیت‌شده روی شبکهٔ تغییرشکل.
 
-## Role in the Causal Architecture / نقش در معماری علّی
+## Role in the Causal Architecture
 
 - **Stage:** **Constraint -> Differential Tension (DeltaPhi) -> Quantized Step (delta s) -> Cadence -> Metric Emergence (g_{mu nu}) -> Observable Dynamics**
 - **Function:** Kinetics of lattice deformation under differential pressure.
 - **Upstream input:** structural constraint and accumulated differential tension ΔΦ (`02_Causal_Architecture/Differential_Pressure_Dynamics.md`).
 - **Downstream output:** the step train {δs_n, δτ_n} feeding cadence operators (`03_Cadence_Core/Cadence_Operator_Definition.md`) and, cumulatively, metric emergence g_{μν} (`04_Canonical_SDF_Mapping/M_Metric_Emergence.md`).
 
-## Section 1 — Step Train and Gating / قطار گام و گیت‌گذاری
+## Section 1 — Step Train and Gating
 
 The elementary kinetic event is an admissible transition between structural states:
 
@@ -46,7 +45,7 @@ v_{\text{step},n}=\frac{\delta s_n}{\delta\tau_n}\ \ (\le c)$$
 
 ω_c is a frequency (T⁻¹); v_step is a speed (L/T) — dimensionally distinct by canonical ruling (`01_Axioms/Axiom_04_Cadence_Quantization.md`).
 
-## Section 2 — Evolution of the Driving Tension / تحول تنش محرک
+## Section 2 — Evolution of the Driving Tension
 
 The kinetic variable is the accumulated differential tension of `Differential_Pressure_Dynamics`, here written as a relaxation-plus-source law:
 
@@ -62,7 +61,7 @@ $$\Delta\Phi_n=\overline{\Delta\Phi}+\epsilon_{\Phi,n},\qquad
 \delta\tau_n=\overline{\delta\tau}+\epsilon_{\tau,n},\qquad
 \frac1N\sum_n\epsilon_{x,n}\to 0$$
 
-## Section 3 — Impedance-Gated Rate / نرخ گیت‌شده با امپدانس
+## Section 3 — Impedance-Gated Rate
 
 The transition rate is set by the reactive medium (`05_Physical_and_Reactive_Medium/Impedance_Network_Model.md`):
 
@@ -70,9 +69,9 @@ $$Z_{\text{medium}} = R_{\text{loss}}(\rho) + j\omega L_{\text{foam}}(\rho) + \f
 \qquad
 \chi_R \equiv \frac{|R_{\text{loss}}|}{|Z_{\text{reactive}}|+\varepsilon_Z}\ \ (\text{gate candidate: } \chi_R\le\chi_{\max})$$
 
-In the boundary regime (مفصل صفر مرزی), R_loss → 0 while the reactive part survives, so the step stays kinematically coherent; the kinetic picture is a **relaxation oscillator**: slow loading (ΔΦ accumulation) alternates with fast gated release (step), with noise acting as a trigger — never as the motor (`02_Causal_Architecture/Proposed_Mechanism_Low_Contradiction.md`).
+In the boundary regime (the boundary zero-point joint), R_loss → 0 while the reactive part survives, so the step stays kinematically coherent; the kinetic picture is a **relaxation oscillator**: slow loading (ΔΦ accumulation) alternates with fast gated release (step), with noise acting as a trigger — never as the motor (`02_Causal_Architecture/Proposed_Mechanism_Low_Contradiction.md`).
 
-## Section 4 — Continuum Limit and Stability / حد پیوسته و پایداری
+## Section 4 — Continuum Limit and Stability
 
 For slowly varying fields the step train averages to a deformation wave for perturbations δΦ on the lattice (matching KST-01 in `09_Validation_and_Simulation/Kinetic_Stability_Tests.md`):
 
@@ -81,7 +80,7 @@ $$\delta\dot{\Phi}_{\text{void}} + 3H_{\text{eff}}\,\delta\Phi_{\text{void}} + \
 
 Kinetic stability requires the dissipative branch to dominate for the modes that matter; the formal test protocol and acceptance criteria live in `09_Validation_and_Simulation/Kinetic_Stability_Tests.md` (status: BLOCKED — specified, not executed).
 
-## Section 5 — Piecewise Regime Laws / قوانین تکه‌ای رژیم‌ها
+## Section 5 — Piecewise Regime Laws
 
 The kinetic law is regime-dependent — the effective law is a patchwork over the constraint map (`01_Axioms/Axiom_03_Spatialization_from_Relaxation.md`):
 
@@ -92,7 +91,7 @@ $$\mathcal{L}_{\text{kin}} = \sum_\alpha \chi_\alpha(\Theta)\,\mathcal{L}_\alpha
 - **Kramers/noise-assisted regime** (ħκ ≲ k_B T): rate set by the noise spectral density at the step detuning.
 - **Threshold regime**: relaxation-oscillator loading → gated release at the phase-debt turning point.
 
-## Section 6 — Void-to-Filament Transport / انتقال حفره به رشته
+## Section 6 — Void-to-Filament Transport
 
 The asymmetry source of deformation is the structural pressure imbalance (`02_Causal_Architecture/Differential_Pressure_Dynamics.md`):
 
