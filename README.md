@@ -89,6 +89,8 @@ Current release status:
 See:
 `09_Validation_and_Simulation/Kinetic_Stability_Tests.md`
 
+**Family §5 executed battery (pointer, 2026-09-25):** while this repo's own gates stay fail-closed BLOCKED (E2 — non-execution never upgrades), the protocol's §5 battery in the canonical home (LIMEN `08_Protocol/Aligned-Protocol` §5) now carries six executed tests, including the two latest: **W3** — the criticality-notch price curve (`limen_d_crit_price.py`): the b_c no-go exemption (d_crit = 0.002 < d_det) is budget-limited, crossing at X* ∈ [1.97e7, 2.36e7] walker-steps (10–12× canonical) where d_det = 0.00194 ≤ d_crit; and **W7** — the Ward test of the shield→boost boundary (`limen_beta_ward.py`): mask-identical under three pre-boundary narratives [exact], decoration-invariant (S z=0.74, D z=0.96; BETA* = +0.076 resolution-limited and flagged) — the boundary belongs to the law, not to a narrative or a stream. Register bank: **4 done (W1, W3, W6, W7) / 3 pending (W2, W4, W5)** — LIMEN `08_Protocol/Two-Realm-Register`.
+
 ## 5b. Aligned Protocol Pointer
 
 The unified epistemic protocol shared by the four family repositories (LIMEN, SPUMA, CADENCE, Vault) is canonically documented in
