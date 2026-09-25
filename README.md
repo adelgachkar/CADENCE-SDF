@@ -94,6 +94,8 @@ See:
 The unified epistemic protocol shared by the four family repositories (LIMEN, SPUMA, CADENCE, Vault) is canonically documented in
 **LIMEN-VACUI `08_Protocol/Aligned-Protocol`** (Persian + EN mirror).
 
+**The sanctity clause (family contract, 2026-09-25):** boundary silence is not vacancy — it is sanctity: peeking over the boundary is forbidden (every appropriation attempt lands in E1, not an answer); every known gap inside the boundary must be **flagged** (an unflagged gap = evasive silence, an E4 violation); and **ambiguity ≠ silence** — inside the boundary, logically resolvable ambiguity is a duty (this repo's BLOCKED KST gates are exactly such flagged gaps); at the pre-boundary there is no proposition to be ambiguous — there is sanctity to respect. Two-realm test: **is a tool conceivable? → ambiguity: work. Not? → silence: revere.** Executed register (7:4): LIMEN `08_Protocol/Two-Realm-Register`.
+
 It formulates: the generative triad (constraint × silence × event), the derived norms E0–E5 (this repo's fail-closed validation policy is E2), the three regimes of silence, registered fundamentality, the three healthy paradox options (C′ recorded silence / C″ reframing / C‴ axiom replacement), and the **invariance-residue test** — the operational criterion separating legitimate dissolution of a frame-made paradox from evasion of a real one. The seven-pivot atlas of accepted physics' unnamed protocol execution is mapped there, labeled `[protocol-mirror]`: CADENCE here is a mirror, not a rival — a residue measurer, not a solver.
 
 ## 6. Reproducibility
