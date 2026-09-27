@@ -101,6 +101,8 @@ The unified epistemic protocol shared by the four family repositories (LIMEN, SP
 
 It formulates: the generative triad (constraint × silence × event), the derived norms E0–E5 (this repo's fail-closed validation policy is E2), the three regimes of silence, registered fundamentality, the three healthy paradox options (C′ recorded silence / C″ reframing / C‴ axiom replacement), and the **invariance-residue test** — the operational criterion separating legitimate dissolution of a frame-made paradox from evasion of a real one. The seven-pivot atlas of accepted physics' unnamed protocol execution is mapped there, labeled `[protocol-mirror]`: CADENCE here is a mirror, not a rival — a residue measurer, not a solver.
 
+**Emergence/balance reference (2026-09-27):** the family's consolidated reference on emergence from the balance differential lives in LIMEN-VACUI `10_Reference/Emergence-Balance-Reference` (FA+EN), vocabulary registered in Vault `01_Foundations/Rank-Ladder-Glossary` (rank-0 ΔB → vector → tensor → declarative components → dynamics; energy as scalar ledger and dynamics; self-referential measurement). CADENCE's differential tension ΔΦ and quantized step δs are the rank-0 scalar and the stepped-flow stages of that ladder under their own names — an analogical role alignment, not a derivation.
+
 ## 6. Reproducibility
 
 A scientific verification claim requires, at minimum:
