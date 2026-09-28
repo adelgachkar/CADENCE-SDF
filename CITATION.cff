@@ -6,11 +6,15 @@ authors:
     affiliation: "Islamic Azad University, Urmia"
     orcid: "https://orcid.org/0009-0006-7713-6004"
 title: "CADENCE-SDF: Dynamic Architecture and Void/Lattice Gravity Dynamics"
-version: 3.6.7
+version: 3.6.8
+doi: 10.5281/zenodo.23006056
 date-released: 2026-09-28
 license: "MIT"
 repository-code: "https://github.com/adelgachkar/CADENCE-SDF"
 identifiers:
-  - description: "Legacy Zenodo deposit of the predecessor record SDF-VLT-Gravity-Dynamics v3.4.2 (2026-09-06); NOT the DOI of this version. A dedicated CADENCE-SDF Zenodo deposit will receive its own DOI."
+  - description: "Version DOI of this release (Zenodo record 23006056, published 2026-09-28)."
+    type: doi
+    value: "10.5281/zenodo.23006056"
+  - description: "Legacy Zenodo deposit of the predecessor record SDF-VLT-Gravity-Dynamics v3.4.2 (2026-09-06); NOT the DOI of this version."
     type: doi
     value: "10.5281/zenodo.22412461"
