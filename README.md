@@ -1,7 +1,7 @@
 # CADENCE-SDF: Dynamic Architecture and Void/Lattice Gravity Dynamics
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23006055.svg)](https://doi.org/10.5281/zenodo.23006055)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23006056.svg)](https://doi.org/10.5281/zenodo.23006056) · version DOI (v3.6.8); the concept DOI above always resolves to the latest version.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23017338.svg)](https://doi.org/10.5281/zenodo.23017338) · version DOI (v3.6.9); the concept DOI above always resolves to the latest version.
 **Version:** 3.6.8  
 **Status:** Proposed Mechanistic Revision — not empirically established  
 **Framework:** Structural Delimitation Framework (SDF)  
