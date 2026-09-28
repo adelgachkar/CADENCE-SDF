@@ -1,0 +1,47 @@
+{
+  "title": "CADENCE-SDF: Dynamic Architecture and Void/Lattice Gravity Dynamics (v3.6.7)",
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "access_right": "open",
+  "license": "mit",
+  "creators": [
+    {
+      "name": "Gachkar, Adel",
+      "affiliation": "Islamic Azad University, Urmia",
+      "orcid": ""
+    }
+  ],
+  "description": "<p>CADENCE-SDF is the dynamic-architecture volume of the SDF family: the causal architecture, cadence core, canonical SDF mapping, physical/reactive medium, dynamic engine, mathematical formalization, observational mapping, and validation/simulation batteries. Fail-closed integrity gates (E2) remain untouched across releases. Carries the family-wide f_c = &kappa;[rad/s]/&pi; convention and pointers to the Bank-Complete protocol status (register bank 8/0: W1&ndash;W5, W4b, W6, W7 executed; S1&ndash;S4 permanent revere; F3 guarded by the machine-readable W4c gate). Companion repositories: LIMEN-VACUI (protocol home), SPUMA-VACUI, Emergence-SDF-Vault. Model-level claims with executed numerical protocols; no empirical cosmological claim is made.</p>",
+  "keywords": [
+    "dynamic architecture",
+    "void gravity",
+    "lattice dynamics",
+    "fail-closed gates",
+    "SDF family",
+    "validation battery"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/adelgachkar/CADENCE-SDF",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/adelgachkar/LIMEN-VACUI",
+      "relation": "isVariantFormOf",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/adelgachkar/SPUMA-VACUI",
+      "relation": "isVariantFormOf",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/adelgachkar/Emergence-SDF-Vault",
+      "relation": "isVariantFormOf",
+      "scheme": "url"
+    }
+  ],
+  "communities": [],
+  "grants": []
+}
