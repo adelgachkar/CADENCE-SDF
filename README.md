@@ -97,8 +97,10 @@ See:
 
 ## 5b. Aligned Protocol Pointer
 
-The unified epistemic protocol shared by the four family repositories (LIMEN, SPUMA, CADENCE, Vault) is canonically documented in
+The unified epistemic protocol shared by the family repositories (LIMEN, SPUMA, CADENCE, Vault, CRG-Flux, VMC-QF) is canonically documented in
 **LIMEN-VACUI `08_Protocol/Aligned-Protocol`** (Persian + EN mirror).
+
+**Family status mirror (2026-10-01):** LIMEN-VACUI v0.12.3 (canonical home, Two-Realm Register 8/0) · SPUMA-VACUI v0.4.10 (K1/K2 emergence) · Emergence-SDF-Vault v30.3.11 (derived constants: κ_hop, τ_d, δθ) · CRG-Flux v0.1.0 (flexoelectric framework) · **VMC-QF v0.3.0** — vacuum-microcavity quantum-foam dynamics; an independently simulated arm sharing the register-bank discipline (records Vault-11..15q) and the δθ = 7.356103° constant; the δθ it uses is the same closed-geometry five-fold deficit registered here and in Vault (analogical role alignment, not a derivation). The live family map (versions, DOIs, fa↔EN) is the LIMEN-VACUI `wiki/` directory.
 
 **The sanctity clause (family contract, 2026-09-25):** boundary silence is not vacancy — it is sanctity: peeking over the boundary is forbidden (every appropriation attempt lands in E1, not an answer); every known gap inside the boundary must be **flagged** (an unflagged gap = evasive silence, an E4 violation); and **ambiguity ≠ silence** — inside the boundary, logically resolvable ambiguity is a duty (this repo's BLOCKED KST gates are exactly such flagged gaps); at the pre-boundary there is no proposition to be ambiguous — there is sanctity to respect. Two-realm test: **is a tool conceivable? → ambiguity: work. Not? → silence: revere.** Executed register (7:4): LIMEN `08_Protocol/Two-Realm-Register`.
 
